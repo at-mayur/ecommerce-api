@@ -6,7 +6,7 @@ An API for an ecommerce platform admin to manage product inventory.
 
     Create new product with provided product_name and product_quantity.
 
-    ![Create Product](./productImages/ecommerce-create-product.jpg)
+    ![Create Product](./product_images/ecommerce-create-product.jpg)
 
     > URL [POST] http://localhost:8000/api/v1/products/create
 
@@ -15,7 +15,7 @@ An API for an ecommerce platform admin to manage product inventory.
 
     List all products available.
 
-    ![Product List](./productImages/ecommerce-products-list.jpg)
+    ![Product List](./product_images/ecommerce-products-list.jpg)
 
     > URL [GET] http://localhost:8000/api/v1/products
 
@@ -23,17 +23,17 @@ An API for an ecommerce platform admin to manage product inventory.
 
     Delete a product with provided id with url.
 
-    ![Delete Product](./productImages/ecommerce-delete-product.jpg)
+    ![Delete Product](./product_images/ecommerce-delete-product.jpg)
 
-    > URL [Delete] http://localhost:8000/api/v1/products/<id>
+    > URL [Delete] http://localhost:8000/api/v1/products/`id`
 
 4. API to update quantity of a product 
 
     Update a product with provided number as query with url.
 
-    ![Update Product](./productImages/ecommerce-update-product.jpg)
+    ![Update Product](./product_images/ecommerce-update-product.jpg)
 
-    > URL [POST] http://localhost:8000/api/v1/products/<id>/update_quantity/?number=<qty>
+    > URL [POST] http://localhost:8000/api/v1/products/`id`/update_quantity/?number=`qty`
 
 
 ## Getting Started with Ecommerce API
