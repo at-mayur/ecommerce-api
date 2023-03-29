@@ -1,0 +1,16 @@
+{
+  "name": "ecommerceapi",
+  "version": "1.0.0",
+  "description": "An API for an ecommerce platform admin to manage product inventory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Mayuresh Attarde",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
